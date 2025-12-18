@@ -1,0 +1,41 @@
+{
+  "name": "assignment-10.1-startr",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:a10.1": "jest tests/a10.1",
+    "test:a10.2": "jest tests/a10.2",
+    "test:a10.3": "jest tests/a10.3",
+    "start": "node server.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-and-time": "^3.3.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "morgan": "^1.10.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
