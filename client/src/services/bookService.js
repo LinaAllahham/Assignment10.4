@@ -27,7 +27,7 @@
 
 
 
-const BASE = import.meta.env.VITE_API_URL + '/books';
+const BASE = import.meta.env.VITE_API_URL + 'books';
 
 /**
  * TODO: Implement each function below using fetch().

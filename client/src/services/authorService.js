@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL + '/authors';
+const BASE = import.meta.env.VITE_API_URL + 'authors';
 
 // Gets all authors from the backend
 export const getAuthors = () => fetch(BASE).then(res => res.json());
