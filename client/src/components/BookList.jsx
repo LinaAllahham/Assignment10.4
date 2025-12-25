@@ -53,7 +53,7 @@ export default function BookList({ onSelect }) {
             <ul>
                 {books.map(book => (
                     <li key={book.id}>
-                        <strong>{book.name}</strong> (${book.price}) — Author ID: {book.author_id}
+                        <strong>{book.name}</strong> (${book.price}) - Author ID: {book.author_id}
                         <button onClick={() => onSelect(book)}>✏️</button>
                         <button onClick={() => handleDelete(book.id)}>❌</button>
                     </li>
